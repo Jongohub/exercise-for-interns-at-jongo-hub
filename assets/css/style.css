@@ -11,14 +11,48 @@ body {
     width: 90px;
     display: inline-block;
 }
-/* for the images */
-.container{
+/* for the hero images */
+
+.wrapper {
+  height: 300px;
+}
+.wrapper img {
+  width: 100%;
+}
+
+
+.container {
+  align-items: center;
+}
+
+.gallery {
+  position: absolute;
+  margin: 0px 50px; */
+  top: 550px;
+  margin-right: 25px;
+}
+
+.gallery img {
+  float: left;
+  margin: 25px 0px;
+  width: 32%;
+}
+
+
+
+ /* .container{
 
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 50px 8%;
 }
+.wrapper{
+  margin: 0 auto;
+  width: 100%;
+  height: 225px;
+}
+
 .gallery{
   display: grid;
 height: auto;
@@ -28,7 +62,7 @@ grid-gap: 50px;
 .gallery img{
   width: 50%;
   height:50%;
-}
+} */
 /*button stylinig*/
 .btn {
   background-color: DodgerBlue; /* Blue background */
