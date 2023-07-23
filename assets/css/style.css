@@ -65,7 +65,7 @@ body {
   background-color: #ddd;
   color: black;
 }
-
+/* what happens when u click*/
 .topnav a.active {
   background-color: #04AA6D;
   color: white;
@@ -74,7 +74,7 @@ body {
 .topnav .icon {
   display: none;
 }
-
+/* media querries for screen responsiveness*/
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
