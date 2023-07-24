@@ -1,54 +1,17 @@
-body {
-    padding: 0px;
+*{
     margin: 0px;
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
-/* for logo in nav bar*/
-.logo{
-    position: absolute;
-    left: px;
-    height: 68px;
-    width: 90px;
-    display: inline-block;
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
-/* for the hero images */
-
-.wrapper {
-  
-}
-.wrapper img {
-  width: 100%;
-  height: 50%;
-}
-
-
-.container {
-  align-items: center;
-}
-
-.gallery {
-  position: absolute;
-  margin: 0px 50px;
-  top: 720px;
-  margin-right: 25px;
-}
-
-@media (max-width: 768px) {
-  .gallery {
-    top: 380px;
-  }
-}
-
-.gallery img {
-  float: left;
-  margin: 25px 0px;
-  width: 32%;
-}
-
-/*for the responsive navbar*/
+/* For the Top Nav Bar*/
 .topnav {
   overflow: hidden;
   background-color: #333;
+  padding: 15PX;
 }
 
 .topnav a {
@@ -65,16 +28,16 @@ body {
   background-color: #ddd;
   color: black;
 }
-/* what happens when u click*/
+
 .topnav a.active {
-  background-color: #04AA6D;
+  background-color: #333;
   color: white;
 }
 
 .topnav .icon {
   display: none;
 }
-/* media querries for screen responsiveness*/
+
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
@@ -97,11 +60,71 @@ body {
   }
 }
 
-
-@media screen and (auto-fit, max-width:800px, 1fr){
-    .container{
-        flex: 50%;
-        max-width: 50%;
-    }
-    
+/*For the Hero Image*/
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/images/maclaren.webp");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-text button {
+  border: none;
+  border-radius: 15px;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  background-color: #555;
+  color: white;
+}
+
+/*For The 3 Images*/
+.container {
+  align-items: center;
+}
+
+.gallery {
+  position: sticky;
+  margin: 0px 50px;
+  top: 480px;
+  margin-right: 25px;
+}
+
+.gallery img {
+  float: left;
+  margin: 25px 5px;
+  width: 22%;
+}
+
+
+@media (max-width: 768px) {
+  .gallery {
+    top: 380px;
+  }
+    .gallery img {
+      float: left;
+      margin: 25px 2px;
+      width: 32%;
+    }
+  }
+}
+
+
