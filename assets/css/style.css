@@ -1,3 +1,13 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* For the Top Nav Bar*/
 .topnav {
     background-color: #c31919;
     overflow: hidden;
@@ -19,21 +29,3 @@
     color: black;
     cursor: pointer;
   }
-
-
-  body{
-  height:100%
-}
-
-.bg{
-  /* The image used */
-  background-image:url(assets/images/503099-car-cars-lamborghini.jpg);
-  /*Full height */
-  height:100%;
-
-  /*Center and scale the image nicely*/
-
-  background-position:center;
-  background-repeat:no repeat;
-  background-size:cover;
-}
