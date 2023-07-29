@@ -59,3 +59,66 @@ display: none;
   text-align: left;
 }
 }
+
+
+  /* For the Footer*/
+  .footer {
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #555;
+    color: white;
+    text-align: center;
+    top: 100%;
+ }
+
+/* For the buttons in the footer*/
+  .face-button {
+    background-color: rgb(14, 80, 233);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 10px;
+    font-weight: bold;
+    font-size: large;
+    cursor: pointer;
+  }
+  .Instagram-button {
+    background-color: rgb(197, 54, 157);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 10px;
+    font-weight: bold;
+    font-size: large;
+    cursor: pointer;
+  }
+  .Twitter-button {
+    background-color: rgb(17, 131, 230);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 10px;
+    font-weight: bold;
+    font-size: large;
+    cursor: pointer;
+  }
+  .face-button:hover{
+    opacity: 0.9;
+  }
+  .link-button:hover {
+    opacity: 0.9;
+  }
+  .git-button:hover {
+    opacity: 0.9;
+  }
+  .face-button:active {
+    opacity: 0.5;
+  }
+  .link-button:hover {
+    opacity: 0.5;
+  }
+  .git-button:hover {
+    opacity: 0.5;
+  }
